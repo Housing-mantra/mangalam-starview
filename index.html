@@ -26,6 +26,8 @@
   <meta name="geo.position" content="18.5204;73.8567">
   <meta name="ICBM" content="18.5204, 73.8567">
   <link rel="canonical" href="https://mangalamstarview.com/">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="apple-touch-icon" href="favicon.svg">
 
   <script type="application/ld+json">
   [{"@context":"https://schema.org","@type":"WebSite","name":"Mangalam Starview","url":"https://mangalamstarview.com/","description":"Official website of Mangalam Starview – a premium high-rise residential project launching soon in Pune."},{"@context":"https://schema.org","@type":"LocalBusiness","name":"Mangalam Starview Sales Office","url":"https://mangalamstarview.com/","telephone":"+919579898697","address":{"@type":"PostalAddress","addressLocality":"Pune","addressRegion":"Maharashtra","addressCountry":"IN"},"geo":{"@type":"GeoCoordinates","latitude":"18.5204","longitude":"73.8567"},"openingHours":"Mo-Su 09:00-20:00"}]
@@ -33,7 +35,7 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
 
   <style>
@@ -49,14 +51,13 @@
       --blue:     #1E3A8A;
       --blue-md:  #2F57C7;
       --blue-lt:  #EEF2FF;
-      --serif:    'Playfair Display', Georgia, serif;
-      --sans:     'DM Sans', system-ui, sans-serif;
+      --font:     'Plus Jakarta Sans', system-ui, sans-serif;
     }
 
     html { scroll-behavior: smooth; }
 
     body {
-      font-family: var(--sans);
+      font-family: var(--font);
       background: var(--bg);
       color: var(--text);
       min-height: 100vh;
@@ -78,10 +79,10 @@
       border-bottom: 1px solid var(--border);
     }
     .brand-name {
-      font-family: var(--serif);
-      font-size: 1.35rem;
-      font-weight: 500;
-      letter-spacing: 0.4px;
+      font-family: var(--font);
+      font-size: 1.2rem;
+      font-weight: 700;
+      letter-spacing: -0.2px;
       color: var(--text);
     }
     .brand-tag {
@@ -138,10 +139,11 @@
     }
 
     h1 {
-      font-family: var(--serif);
-      font-size: clamp(3rem, 5.5vw, 5.5rem);
-      font-weight: 400;
+      font-family: var(--font);
+      font-size: clamp(2.8rem, 5vw, 5rem);
+      font-weight: 800;
       line-height: 1.05;
+      letter-spacing: -2px;
       color: var(--text);
       margin-bottom: 20px;
     }
@@ -174,9 +176,9 @@
     }
     .cd-item:last-child { border-right: none; padding-right: 0; margin-right: 0; }
     .cd-num {
-      font-family: var(--serif);
-      font-size: 3rem;
-      font-weight: 400;
+      font-family: var(--font);
+      font-size: 2.8rem;
+      font-weight: 700;
       color: var(--text);
       display: block;
       line-height: 1;
@@ -212,9 +214,10 @@
     }
 
     .form-heading {
-      font-family: var(--serif);
-      font-size: 1.75rem;
-      font-weight: 400;
+      font-family: var(--font);
+      font-size: 1.5rem;
+      font-weight: 700;
+      letter-spacing: -0.5px;
       color: var(--text);
       margin-bottom: 6px;
     }
@@ -242,7 +245,7 @@
       border: 1px solid var(--border);
       border-radius: 4px;
       padding: 12px 15px;
-      font-family: var(--sans);
+      font-family: var(--font);
       font-size: 0.88rem;
       color: var(--text);
       outline: none;
@@ -264,10 +267,10 @@
       background: var(--blue);
       border: none;
       border-radius: 4px;
-      font-family: var(--sans);
-      font-size: 0.78rem;
-      font-weight: 500;
-      letter-spacing: 2px;
+      font-family: var(--font);
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 1.5px;
       text-transform: uppercase;
       color: #fff;
       cursor: pointer;
@@ -303,7 +306,7 @@
       animation: pop 0.4s cubic-bezier(0.34,1.56,0.64,1);
     }
     @keyframes pop { from{transform:scale(0);opacity:0} to{transform:scale(1);opacity:1} }
-    .success h3 { font-family: var(--serif); font-size: 1.5rem; font-weight: 400; }
+    .success h3 { font-family: var(--font); font-size: 1.4rem; font-weight: 700; letter-spacing: -0.3px; }
     .success p { font-size: 0.82rem; color: var(--muted); line-height: 1.7; }
 
     /* ── FOOTER ── */
